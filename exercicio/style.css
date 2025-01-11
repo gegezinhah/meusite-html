@@ -1,0 +1,77 @@
+/* Remove margem e padding padrão do body */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo do header e imagem */
+header img {
+    width: 100%; /* Imagem ocupa toda a largura */
+    height: auto; /* Mantém a proporção */
+}
+
+/* Estilo do nav */
+nav {
+    
+    padding: 10px 0; /* Espaço interno no menu */
+}
+
+/* Remove marcadores e configura alinhamento */
+nav ul {
+    list-style: none; /* Remove marcadores de lista */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Deixa os itens em linha */
+    justify-content: center; /* Centraliza os itens */
+}
+
+/* Espaçamento entre os itens */
+nav ul li {
+    margin: 0 20px; /* Espaço horizontal entre os itens */
+}
+
+/* Estilo dos links */
+nav ul li a {
+    text-decoration: none; /* Remove sublinhado */
+    color: rgb(12, 12, 12); /* Cor branca para o texto */
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s; /* Efeito suave ao passar o mouse */
+}
+
+/* Efeito hover nos links */
+nav ul li a:hover {
+    color: #f39c12; /* Cor ao passar o mouse */
+}
+/* Estilo para centralizar as imagens */
+.image-container {
+    display: flex; /* Usamos flexbox para centralizar */
+    justify-content: center; /* Centraliza horizontalmente */
+    margin: 20px 0; /* Espaçamento acima e abaixo da imagem */
+}
+
+.image-container img {
+    width: 80%; /* Ajuste para que a imagem não ocupe toda a tela */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+/* Espaçamento entre o menu e a imagem */
+.spacer {
+    height: 20px; /* Controla a altura do espaço */
+}
+
+/* Estilo para a linha e informações no footer */
+footer {
+    text-align: center; /* Centraliza o texto */
+    margin-top: 20px; /* Adiciona espaçamento acima do footer */
+    color: #555; /* Cor do texto */
+    font-size: 14px; /* Tamanho da fonte */
+}
+
+footer hr {
+    border: none; /* Remove o estilo padrão da linha */
+    border-top: 2px solid #ccc; /* Cria uma linha horizontal */
+    margin: 10px auto; /* Adiciona margem */
+    width: 80%; /* Ajusta o tamanho da linha */
+}
